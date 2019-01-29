@@ -1,0 +1,20 @@
+{
+    "compilerOptions":{
+        "module":"commonjs",
+        "target":"es5",
+        "allowJs":true,
+        // typings install lodash 
+        "typeRoots":[ //声明文件目录
+            "./node_modules/@type",
+            "./typings/modules"
+        ]
+    },
+
+    "include":[
+        "./src/*"
+    ],
+
+    "exclude":[
+        "./node_modules"
+    ]
+}

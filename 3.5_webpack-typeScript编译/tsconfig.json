@@ -1,0 +1,18 @@
+{
+    "compilerOptions":{  
+        "module":"commonjs", //包含所有的es6的api
+        "target":"es5",//编辑为es5格式
+        "allowJs":true, //允许在代码里出现js语法
+        "typeRoots":[ //声明文件的路径
+            "./node_modules/@type",
+            "./typings/modules"
+        ]
+
+    },
+    "include":[  //将要编译的文件路径
+        "./src/*"  //src下面的所有文件
+    ],
+    "exclude":[ //排除要编译的文件路径
+        "./node_modules"
+    ]
+}

@@ -3,7 +3,7 @@ module.exports = {
         app:'./app.js'
     },
     output:{
-        filename:'[name].[hash:8].js'
+        filename:'[name].[hash:9].js'
     },
     module:{
         rules:[ //数组中每一项可以是规则 
